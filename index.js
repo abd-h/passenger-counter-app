@@ -25,13 +25,10 @@ increment();
 let saveEl = document.getElementById("save-el");
 // save count;
 function save(){
-  
     let savedCount = count + " - "; 
-    
-   saveEl.textContent += savedCount;
-  console.log(count);
-  countEl.innerText = 0;
-  count = 0;
+    saveEl.textContent += savedCount;
+    countEl.innerText = 0;
+    count = 0;
 }
  save()
 
